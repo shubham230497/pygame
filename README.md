@@ -1,6 +1,6 @@
 # pygame
 
-				![IMG README](https://github.com/shubham230497/pygame/blob/master/icon.png?raw=true "Optional Title")
+										![IMG README](icon.png?raw=true "Optional Title")
 
 
 The MIT License (MIT)
