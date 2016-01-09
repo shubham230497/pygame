@@ -1,12 +1,12 @@
 language: python
 python:
-  - "2.7"
-  # does not have headers provided, please ask https://launchpad.net/~pypy/+archive/ppa
-  # maintainers to fix their pypy-dev package.
-  - "pypy"
-# command to install dependencies
-install:
-  - pip install .
-  - pip install -r requirements.txt
-# command to run tests
-script: nosetests
+    - "2.7"
+
+install: pip install -r requirements.txt
+env:
+  global:
+      secure: <long encrypted string>
+
+script:
+    - export SECRET_KEY=$SECRET_KEY
+    - python manage.py test
