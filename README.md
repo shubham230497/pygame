@@ -1,6 +1,6 @@
 # pygame
 
-								![Readme.md](screenshots/icon.png "Readme")
+								![Readme.md](https://github.com/shubham230497/pygame/blob/master/screenshots/icon.png "Readme")
 
 
 The MIT License (MIT)
