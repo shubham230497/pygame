@@ -1,6 +1,6 @@
 # pygame
 
-										![IMG README](icon.png?raw=true "Optional Title")
+								![Readme.md](screenshots/icon.png "Readme")
 
 
 The MIT License (MIT)
